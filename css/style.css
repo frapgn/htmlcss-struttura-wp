@@ -112,7 +112,7 @@ main div {
 }
 
 main div:last-child {
-    border-bottom: none
+    border-bottom: none;
 }
 
 main h2 {
@@ -132,13 +132,13 @@ main h2 {
 }
 
 .sidebar-right input[type="search"] {
-    float: left;
+    /* float: left; */
     margin-right: 10px;
     width: 70%;
 }
 
 .sidebar-right input[type="submit"] {
-    float: left;
+    /* float: left; */
     width: calc(30% - 10px);
 }
 
