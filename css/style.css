@@ -133,11 +133,13 @@ main h2 {
 
 .sidebar-right input[type="search"] {
     float: left;
-    margin-right: 20px;
+    margin-right: 10px;
+    width: 70%;
 }
 
 .sidebar-right input[type="submit"] {
     float: left;
+    width: calc(30% - 10px);
 }
 
 /********** FOOTER **********/
@@ -151,6 +153,6 @@ footer {
 footer div {
     width: 25%;
     padding: 20px;
-    background-color: red;
+    /* background-color: red; */
     float: left;
 }
