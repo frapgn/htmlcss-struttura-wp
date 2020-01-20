@@ -19,12 +19,13 @@ body {
 .container {
     margin: 20px auto;
     width: 90%;
-    background-color: white; /* da rimuovere */
+    /* background-color: white; /* da rimuovere */ */
 }
 
 header {
     height: 250px;
     padding: 10px;
+    background-color: white;
 }
 
 header img {
@@ -37,22 +38,28 @@ nav {
     height: 50px;
     background-color: #504741;
     position: relative;
+    margin-bottom: 20px;
 }
 
 aside {
-    width: 33%;
+    width: 30%;
     background-color: lightgreen;
+    float: left;
+    margin-right: 20px;
 }
 
 main {
-    width: 67%;
+    width: calc(70% - 20px);
     background-color: lightblue;
+    float: left;
 }
 
 footer {
+    float: left;
     height: 500px;
     width: 100%;
     background-color: #9e6165;
+    margin-top: 20px;
 }
 
 h1, h2 {
