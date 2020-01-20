@@ -19,11 +19,16 @@ body {
 .container {
     margin: 20px auto;
     width: 90%;
-    /* background-color: white; /* da rimuovere */ */
 }
 
-h1, h2 {
-    text-transform:uppercase;
+h1, h2, h3, a {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, li {
+    font-family: 'Roboto', sans-serif;
+
 }
 
 ul{
@@ -39,7 +44,9 @@ li {
 header {
     height: 250px;
     padding: 10px;
-    background-color: white;
+    background-color: #fff;
+    position: relative;
+    border-radius: 3px 3px 0 0;
 }
 
 header img {
@@ -48,6 +55,14 @@ header img {
     object-fit: cover;
 }
 
+.header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
 
 /********** NAVBAR **********/
 nav {
@@ -55,6 +70,7 @@ nav {
     background-color: #504741;
     position: relative;
     margin-bottom: 20px;
+    border-radius: 0 0 3px 3px;
 }
 
 .menu-container {
@@ -79,11 +95,11 @@ nav {
 
 .menu-item a {
     text-decoration: none;
-    color: white;
+    color: #fff;
 }
 
 .menu-item a:visited {
-    color: white;
+    color: #fff;
 }
 
 /********** SIDEBAR LEFT **********/
@@ -95,15 +111,17 @@ nav {
 .sidebar-left div {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: lightgreen;
+    background-color: #fff;
+    border-radius: 3px;
 }
 
 /********** MAIN **********/
 main {
     width: calc(60% - 40px);
-    background-color: lightblue;
+    background-color: #fff;
     float: left;
     margin: 0 20px 20px;
+    border-radius: 3px;
 }
 
 main div {
@@ -128,7 +146,8 @@ main h2 {
 .sidebar-right div {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: lightgreen;
+    background-color: #fff;
+    border-radius: 3px;
 }
 
 .sidebar-right input[type="search"] {
@@ -141,16 +160,15 @@ main h2 {
 }
 
 /********** FOOTER **********/
-
 footer {
     float: left;
     width: 100%;
-    background-color: #9e6165;
+    background-color: #fff;
+    border-radius: 3px;
 }
 
 footer div {
     width: 25%;
     padding: 20px;
-    /* background-color: red; */
     float: left;
 }
