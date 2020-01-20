@@ -22,6 +22,20 @@ body {
     /* background-color: white; /* da rimuovere */ */
 }
 
+h1, h2 {
+    text-transform:uppercase;
+}
+
+ul{
+    margin-top: 10px;
+    margin-left: 15%;
+}
+
+li {
+    line-height: 30px;
+}
+
+/********** HEADER **********/
 header {
     height: 250px;
     padding: 10px;
@@ -34,36 +48,13 @@ header img {
     object-fit: cover;
 }
 
+
+/********** NAVBAR **********/
 nav {
     height: 50px;
     background-color: #504741;
     position: relative;
     margin-bottom: 20px;
-}
-
-aside {
-    width: 30%;
-    background-color: lightgreen;
-    float: left;
-    margin-right: 20px;
-}
-
-main {
-    width: calc(70% - 20px);
-    background-color: lightblue;
-    float: left;
-}
-
-footer {
-    float: left;
-    height: 500px;
-    width: 100%;
-    background-color: #9e6165;
-    margin-top: 20px;
-}
-
-h1, h2 {
-    text-transform:uppercase;
 }
 
 .menu-container {
@@ -93,4 +84,73 @@ h1, h2 {
 
 .menu-item a:visited {
     color: white;
+}
+
+/********** SIDEBAR LEFT **********/
+.sidebar-left {
+    width: 20%;
+    float: left;
+}
+
+.sidebar-left div {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: lightgreen;
+}
+
+/********** MAIN **********/
+main {
+    width: calc(60% - 40px);
+    background-color: lightblue;
+    float: left;
+    margin: 0 20px 20px;
+}
+
+main div {
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+main div:last-child {
+    border-bottom: none
+}
+
+main h2 {
+    margin-bottom: 10px;
+}
+
+/********** SIDEBAR RIGHT **********/
+.sidebar-right {
+    width: 20%;
+    float: left;
+}
+
+.sidebar-right div {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: lightgreen;
+}
+
+.sidebar-right input[type="search"] {
+    float: left;
+    margin-right: 20px;
+}
+
+.sidebar-right input[type="submit"] {
+    float: left;
+}
+
+/********** FOOTER **********/
+
+footer {
+    float: left;
+    width: 100%;
+    background-color: #9e6165;
+}
+
+footer div {
+    width: 25%;
+    padding: 20px;
+    background-color: red;
+    float: left;
 }
