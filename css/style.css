@@ -132,14 +132,12 @@ main h2 {
 }
 
 .sidebar-right input[type="search"] {
-    /* float: left; */
     margin-right: 10px;
     width: 70%;
 }
 
 .sidebar-right input[type="submit"] {
-    /* float: left; */
-    width: calc(30% - 10px);
+    width: calc(30% - 14px);
 }
 
 /********** FOOTER **********/
