@@ -64,6 +64,10 @@ header img {
     color: #fff;
 }
 
+.fa-mountain {
+    font-size: 30px;
+}
+
 /********** NAVBAR **********/
 nav {
     height: 50px;
