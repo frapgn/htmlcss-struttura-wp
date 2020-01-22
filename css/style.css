@@ -42,11 +42,12 @@ p, li {
 ul{
     margin-top: 10px;
     margin-left: 10%;
+    /* list-style-type: none;   STESSA FUNZIONE DI  list-style: none; */
 }
 
 li {
     line-height: 30px;
-    list-style-type: none;
+    list-style: none;
 }
 
 /********** HEADER **********/
@@ -73,7 +74,7 @@ header img {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.titles-container {
+.logo-container {
     position: absolute;
     top: 50%;
     left: 50%;
